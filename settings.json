@@ -1,0 +1,170 @@
+{
+    "php-docblocker.author": {
+        "name": "Davi Lima",
+        "email": "davi.n.lima99@gmail.com"
+    },
+    "window.zoomLevel": 0,
+    "phpcs.standard": "PSR2",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1563472030029,
+    "workbench.colorTheme": "Tron Contrast (rainglow)",
+    // "editor.minimap.enabled": false,
+    
+
+    //EDITOR CUSTOM
+    "workbench.colorCustomizations": {
+        
+        "activityBar.dropBackground" : "#bb0734",
+        "activityBarBadge.background" : "#bb0734",
+        "activityBar.border" : "#000000",
+        "activityBar.activeBorder": "#bb0734",
+        "activityBar.foreground" : "#bb0734",
+
+        "editorGutter.modifiedBackground" : "#bb0734",
+        "editorGroup.border": "#19191a",
+        "tab.activeBorderTop": "#bb0734",
+        
+        "terminal.foreground": "#cecece",
+        "terminalCursor.foreground": "#b43939",
+        "terminalCursor.background": "#ff0202",
+        "terminal.background":"#0b0c0c",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBlue":"#ffffff",
+        "terminal.ansiBrightBlack":"#665C54",
+        "terminal.ansiBrightBlue":"#ffffff",
+        "terminal.ansiBrightCyan":"#8BA59B",
+        "terminal.ansiBrightGreen":"#bb0734",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#bb0734",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#ffee02",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#4bb1e0",
+        "terminal.ansiRed":"#e42309",
+        "terminal.ansiWhite":"#f8e003",
+        "terminal.ansiYellow":"#FAC03B",
+        
+
+        
+        "panelInput.border": "#ff0000",
+        "panelTitle.activeBorder": "#bb0734",
+        
+        "sideBar.foreground" : "#ffffff",
+        "gitDecoration.modifiedResourceForeground" : "#e63662",
+        "gitDecoration.conflictingResourceForeground": "#ffe600",
+        "gitlens.trailingLineForegroundColor": "#bb0734",
+        "gitlens.lineHighlightOverviewRulerColor": "#0891ec",
+        "gitlens.gutterForegroundColor": "#0891ec",
+        "gitDecoration.addedResourceForeground": "#0891ec",
+        "gitDecoration.ignoredResourceForeground": "#0891ec",
+        "gitDecoration.submoduleResourceForeground": "#0891ec",
+        "gitDecoration.untrackedResourceForeground": "#0099ff",
+        
+        "statusBar.background": "#bb0734",
+        "statusBar.foreground" : "#ffffff",
+        "statusBar.noFolderBackground" : "#222225",
+        "statusBar.debuggingBackground": "#511f1f"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment"
+                ],
+                "settings": {
+                    "foreground": "#a0a0a0"
+                }
+            },
+            
+            {
+                "scope": [
+                    "entity.name.function.invocation.powershell",
+                    "entity.name.function.powershell",
+                    "entity.other.inherited-class",
+                    "entity.type.namespace",
+                    "storage.type",
+                    "storage.type.cs",
+                    "support.class",
+                    "support.constant.math",
+                    "support.function.powershell",
+                    "variable.other.normal.powershell",
+                    "variable.other.object.ts",
+                    "variable.other.readwrite.powershell",
+                    "storage.type"
+                ],
+                "settings": {
+                    "foreground": "#08daff"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "entity.type.namespace.cs",
+                    "interpolated.complex.source.powershell",
+                    "interpolated.simple.source.powershell",
+                    "storage.type.function.arrow.ts",
+                    "string.quoted.double.xml",
+                    "support.function",
+                    "support.variable",
+                    "variable"
+                ],
+                "settings": {
+                    "foreground": "#8fe774"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name",
+                    "meta.object-literal.key",
+                    "entity.name.type",
+                    // "variable.language"
+                ],
+                "settings":{
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": [
+                    "variable.language"
+                ],
+                "settings":{
+                    "foreground": "#f65c03"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag",
+                    "constant.language",
+                    "entity.name.tag",
+                    "keyword",
+                    "keyword.control",
+                    "keyword.operator -source.cs",
+                    "keyword.operator.expression",
+                    "keyword.operator.new",
+                    "punctuation.section.embedded",
+                    "storage.modifier",
+                    "support.constant.automatic.powershell",
+                    "support.type",
+                ],
+                "settings": {
+                    "foreground": "#e63662"
+                }
+            },
+            {
+                "scope": [
+                    "string"
+                ],
+                "settings": {
+                    "foreground": "#f3eba0"
+                }
+            }
+        ]
+    },
+    
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "editor.fontSize": 12,
+    "workbench.iconTheme": "minimalistic-icons",
+}
