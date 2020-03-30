@@ -1,0 +1,20 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Print to console": {
+		"prefix": "dbg",
+		"body": [
+			"echo '<pre>';",
+			"var_dump('$1');",
+			"die('end');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+}

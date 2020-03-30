@@ -1,0 +1,50 @@
+{
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Function": {
+		"prefix": "function",
+		"body": [
+			"function ${1:methodName} (${2:arguments}) {",
+			" ${3:// body}",
+			"}"
+		],
+		"description": "Log output to console"
+	},
+	"Async": {
+		"prefix": "async",
+		"body": [
+			"async ${1:methodName} (${2:arguments}) {",
+			" ${3:// body}",
+			"}"
+		],
+		"description": ""
+	},
+	"Export Default": {
+		"prefix": "exports_def",
+		"body": [
+			"exports default function ${1:methodName} (${2:arguments}) {",
+			" ${3:// body}",
+			"}"
+		],
+		"description": ""
+	},
+	"Module Exports": {
+		"prefix": "module_exports",
+		"body": [
+			"module.exports = {",
+			"async ${1:methodName} (${2:arguments}) {",
+			" ${3:// body}",
+			"}",
+			"}"
+		],
+		"description": ""
+	},
+
+
+}

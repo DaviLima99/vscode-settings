@@ -117,8 +117,7 @@
                 "scope": [
                     "entity.other.attribute-name",
                     "meta.object-literal.key",
-                    "entity.name.type",
-                    // "variable.language"
+                    "entity.name.type"
                 ],
                 "settings":{
                     "foreground": "#ffffff"
@@ -162,9 +161,11 @@
         ]
     },
     
+    "emmet.syntaxProfiles": {"javascript": "jsx"},
+    "emmet.includeLanguages": {"javascript": "javascriptreact"},
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "editor.fontSize": 12,
-    "workbench.iconTheme": "minimalistic-icons",
+    "workbench.iconTheme": "minimalistic-icons"
 }
